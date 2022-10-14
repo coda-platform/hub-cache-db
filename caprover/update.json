@@ -1,0 +1,11 @@
+{
+    "appName": "hub-cache-db",
+    "instanceCount": 1,
+    "notExposeAsWebApp": true,
+    "envVars": [
+        {
+            "key": "REDIS_PASSWORD",
+            "value": "$REDIS_PASSWORD"
+        }
+    ]
+}
